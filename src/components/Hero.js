@@ -128,9 +128,9 @@ const Wrapper = styled.section`
  .section-center {
   background-color: var(--clr-primary-1);
   transition: var(--transition);
-  background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+  /* background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
    no-repeat center center;
-  background-size: cover;
+  background-size: cover; */
  }
  .content {
   display: grid;
@@ -155,9 +155,7 @@ const Wrapper = styled.section`
   border: 2px solid var(--clr-black);
  }
  .form-input {
-
   color: var(--clr-black);
-  
  }
  .submit-btn {
   border-top-right-radius: var(--radius);
@@ -206,7 +204,6 @@ const Wrapper = styled.section`
   cursor: pointer;
   font-size: 0.8rem;
 
-
   border-radius: var(--mainBorderRadius);
   border-color: transparent;
  }
@@ -215,73 +212,73 @@ const Wrapper = styled.section`
   color: var(--clr-font);
  }
  @media (min-width: 576px) {
-
   .section-center {
    border-radius: 2%;
    height: 50vh;
   }
   .header {
-   font-size: 2.15rem;
+   font-size: 2.5rem;
   }
   .content {
    height: 40vh;
-
-  
   }
  }
  @media only screen and (max-width: 600px) {
- 
   .section-center {
    border-radius: 2%;
-   height: 45vh;
-   width: 45vh;
-   padding: 2rem;
+   height: 60vh;
+   width: 55vh;
+   padding: 2.5rem;
+   background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+    no-repeat center center;
+   background-size: cover;
   }
   .header {
-   font-size: 2rem;
+   font-size: 1.65rem;
    margin-bottom: 5rem;
   }
   .submit-btn {
    font-size: 1.2rem;
-   padding: 0.85rem 1rem;
+   padding: 0.55rem 1rem;
   }
   .content {
    height: 40vh;
-
-
   }
  }
  @media only screen and (min-width: 600px) {
-
   .section-center {
-   border-radius: 4%;
-   height: 50vh;
-   padding: 3rem;
-   width: 55vh;
-  }
-
-  .submit-btn {
-   font-size: 1.25rem;
-   padding: 0.75rem 1rem;
+   border-radius: 2%;
+   height: 70vh;
+   width: 80vh;
+   padding: 2.5rem;
+   background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+    no-repeat center center;
+   background-size: cover;
   }
   .header {
-   font-size: 2.35rem;
-   margin-bottom: 8rem;
+   font-size: 1.85rem;
+   margin-bottom: 12rem;
   }
-
+  .submit-btn {
+   font-size: 1.2rem;
+   padding: 0.55rem 1rem;
+  }
   .content {
    height: 40vh;
   }
  }
 
  @media only screen and (min-width: 768px) {
- 
+  min-height: 35rem;
   .section-center {
-   height: 50vh;
-   width: 75vh;
+   height: 75vh;
+   width: 90vh;
    grid-gap: 1.5rem;
    border-radius: 2%;
    padding: 2.5rem;
+   background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+    no-repeat center center;
+   background-size: cover;
   }
 
   .header {
@@ -297,15 +294,18 @@ const Wrapper = styled.section`
  }
 
  @media (min-width: 992px) {
+  min-height: 40rem;
   p {
    margin-bottom: 0;
   }
   .section-center {
-   height: 55vh;
-   width: 85vh;
+   height: 90vh;
+   width: 100vh;
 
    border-radius: 2%;
-   background-color: midnightblue;
+   background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+    no-repeat center center;
+   background-size: cover;
    padding: 3.5rem;
   }
   .content {
@@ -324,14 +324,14 @@ const Wrapper = styled.section`
  }
  @media (min-width: 1280px) {
   .section-center {
-   background-color: green;
    height: 55vh;
-   width: 120vh;
-
+   width: 130vh;
    display: grid;
    align-items: flex-start;
-
    border-radius: 2%;
+   background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
+    no-repeat center center;
+   background-size: cover;
   }
   .modal-container {
    height: 70vh;
@@ -351,4 +351,3 @@ const Wrapper = styled.section`
 `
 
 export default Hero
-

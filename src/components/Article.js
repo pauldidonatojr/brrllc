@@ -36,7 +36,7 @@ const Wrapper = styled.section`
  width: 100%;
 
  background-color: var(--clr-grey-8);
- height: 170vh;
+ height: 250vh;
  ${
   '' /* background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1650567139/generic_5_uz5tu1.webp')
   no-repeat center;
