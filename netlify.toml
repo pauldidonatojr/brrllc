@@ -1,1 +1,11 @@
 [build]
+
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['master', 'develop', 'feat/add-algolia']
+  disabled = true
+  pathPrefix = "/blog"
+  customDomain = "https://bloomingtonrentalsllc.com/"
+  renderJavaScript = true
