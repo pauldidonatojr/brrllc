@@ -226,9 +226,10 @@ const Wrapper = styled.section`
  @media only screen and (max-width: 600px) {
   .section-center {
    border-radius: 2%;
-   height: 60vh;
-   width: 55vh;
+   height: 50vh;
+   width: 45vh;
    padding: 2.5rem;
+
    background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
     no-repeat center center;
    background-size: cover;
@@ -248,9 +249,10 @@ const Wrapper = styled.section`
  @media only screen and (min-width: 600px) {
   .section-center {
    border-radius: 2%;
-   height: 70vh;
-   width: 80vh;
+   height: 50vh;
+   width: 50vh;
    padding: 2.5rem;
+   /* background-color: red; */
    background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
     no-repeat center center;
    background-size: cover;
@@ -268,7 +270,7 @@ const Wrapper = styled.section`
   }
  }
 
- @media only screen and (min-width: 768px) {
+ @media only screen and (min-width: 768px) and (max-width: 790px) {
   min-height: 35rem;
   .section-center {
    height: 75vh;
@@ -276,6 +278,7 @@ const Wrapper = styled.section`
    grid-gap: 1.5rem;
    border-radius: 2%;
    padding: 2.5rem;
+
    background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
     no-repeat center center;
    background-size: cover;
@@ -293,23 +296,24 @@ const Wrapper = styled.section`
   }
  }
 
- @media (min-width: 992px) {
+ @media only screen and (min-width: 860px) and (max-width: 992px) {
   min-height: 40rem;
   p {
    margin-bottom: 0;
   }
   .section-center {
-   height: 90vh;
-   width: 100vh;
+   height: 65vh;
+   width: 80vh;
 
    border-radius: 2%;
+
    background: url('https://res.cloudinary.com/elpawl-llc/image/upload/v1652788878/brlogo_vtatak.jpg')
     no-repeat center center;
    background-size: cover;
-   padding: 3.5rem;
+   padding: 5.5rem;
   }
   .content {
-   height: 40vh;
+   height: 50vh;
   }
   .submit-btn {
    font-size: 1.25rem;
@@ -324,7 +328,7 @@ const Wrapper = styled.section`
  }
  @media (min-width: 1280px) {
   .section-center {
-   height: 55vh;
+   height: 50vh;
    width: 130vh;
    display: grid;
    align-items: flex-start;
